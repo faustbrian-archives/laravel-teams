@@ -1,0 +1,58 @@
+{
+    "name": "kodekeep/laravel-teams",
+    "description": ":package_description",
+    "keywords": [
+        "kodekeep",
+        "laravel-teams"
+    ],
+    "homepage": "https://github.com/kodekeep/laravel-teams",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@kodekeep.com",
+            "homepage": "https://kodekeep.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "doctrine/dbal": "^2.10",
+        "illuminate/contracts": "^6.0",
+        "illuminate/support": "^6.0",
+        "ramsey/uuid": "^3.9",
+        "spatie/laravel-sluggable": "^2.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "graham-campbell/analyzer": "^2.4",
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KodeKeep\\Teams\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KodeKeep\\Teams\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test:coverage": "vendor/bin/phpunit --coverage-html=.coverage --coverage-clover=coverage.xml",
+        "format": "vendor/bin/php-cs-fixer fix ./"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KodeKeep\\Teams\\Providers\\TeamsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
