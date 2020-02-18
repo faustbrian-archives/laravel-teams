@@ -49,4 +49,5 @@ jobs:
                   CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
               with:
                   coverageCommand: composer test:coverage
-                  coverageLocations: "./.coverage/coverage.xml:clover"
+                  # coverageLocations: "./.coverage/coverage.xml:clover"
+                  debug: true
