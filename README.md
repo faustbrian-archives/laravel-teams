@@ -4,10 +4,10 @@
 [![Software License](https://badgen.net/packagist/license/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
 [![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-teams/run-tests?label=tests)](https://github.com/kodekeep/laravel-teams/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-teams)](https://codeclimate.com/github/kodekeep/laravel-teams)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-teams)](hhttps://codeclimate.com/github/kodekeep/laravel-teams)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-teams)](https://codeclimate.com/github/kodekeep/laravel-teams)
 [![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
 
-> Teams for Laravel.
+This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides team associations for Laravel.
 
 ## Installation
 
@@ -17,7 +17,7 @@ composer require kodekeep/laravel-teams
 
 ## Usage
 
-See our [tests](https://github.com/kodekeep/laravel-teams/tree/master/tests/Unit) for usage examples.
+See our [tests](https://github.com/kodekeep/laravel-teams/tree/master/tests) for usage examples.
 
 ## Testing
 
@@ -29,7 +29,7 @@ composer test
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing 
+## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
@@ -43,4 +43,4 @@ This project exists thanks to all the people who [contribute](../../contributors
 
 ## License
 
-Mozilla Public License Version 2.0 (MPL-2.0). Please see [License File](LICENSE.md) for more information.
+Laravel Teams is an open-sourced software licensed under the [MPL-2.0](LICENSE.md).
