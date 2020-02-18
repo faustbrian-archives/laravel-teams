@@ -1,11 +1,11 @@
 # Laravel Teams
 
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-teams/run-tests?label=tests)](https://github.com/kodekeep/laravel-teams/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Code Coverage](https://badgen.net/codecov/c/github/kodekeep/laravel-teams)](https://codecov.io/gh/kodekeep/laravel-teams)
-[![Minimum PHP Version](https://badgen.net/packagist/php/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
 [![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
+[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
+[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-teams/run-tests?label=tests)](https://github.com/kodekeep/laravel-teams/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-teams)](https://codeclimate.com/github/kodekeep/laravel-teams)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-teams)](hhttps://codeclimate.com/github/kodekeep/laravel-teams)
 [![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
-[![License](https://badgen.net/packagist/license/kodekeep/laravel-teams)](https://packagist.org/packages/kodekeep/laravel-teams)
 
 > Teams for Laravel.
 
@@ -29,7 +29,7 @@ composer test
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
+## Contributing 
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
