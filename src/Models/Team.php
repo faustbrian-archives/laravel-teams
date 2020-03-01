@@ -33,6 +33,8 @@ class Team extends Model implements Contract
 
     protected $fillable = ['owner_id', 'name', 'slug'];
 
+    protected $casts = ['owner_id' => 'integer'];
+
     protected $dispatchesEvents = [
         'created'  => TeamCreated::class,
         'deleted'  => TeamDeleted::class,
