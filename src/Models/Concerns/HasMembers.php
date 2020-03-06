@@ -34,7 +34,7 @@ trait HasMembers
             ->withPivot(['role', 'permissions']);
     }
 
-    public function addMember($user, string $role, array $permissions): void
+    public function addMember($user, string $role = 'member', array $permissions = []): void
     {
         $this->members()->detach($user);
 
