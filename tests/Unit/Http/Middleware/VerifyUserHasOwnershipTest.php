@@ -23,7 +23,7 @@ use KodeKeep\Teams\Tests\TestCase;
 class VerifyUserHasOwnershipTest extends TestCase
 {
     /** @test */
-    public function aborts_the_reqest_if_the_user_doesnt_have_ownership(): void
+    public function aborts_the_request_if_the_user_doesnt_have_ownership(): void
     {
         Route::middleware(VerifyUserHasOwnership::class)->get('/', fn () => []);
 
@@ -39,7 +39,7 @@ class VerifyUserHasOwnershipTest extends TestCase
     }
 
     /** @test */
-    public function aborts_the_reqest_if_the_user_doesnt_have_any_teams(): void
+    public function aborts_the_request_if_the_user_doesnt_have_any_teams(): void
     {
         Route::middleware(VerifyUserHasOwnership::class)->get('/', fn () => []);
 
