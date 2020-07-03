@@ -34,6 +34,8 @@ class TeamsServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../../database/migrations/' => $this->app->databasePath('/migrations'),
             ], 'migrations');
+            
+            $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
         }
     }
 }
